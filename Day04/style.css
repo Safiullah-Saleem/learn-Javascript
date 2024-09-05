@@ -1,0 +1,68 @@
+div[id="myid"] p {
+  color: green;
+}
+
+/* #myid p{
+    color:red;
+} */
+
+#greet {
+  color: yellow;
+}
+
+.myclass {
+  color: brown;
+}
+
+#fb {
+  color: #1b74e4;
+}
+
+button {
+  background-color: aqua;
+}
+
+#sr {
+  background-color: black;
+  color: white;
+}
+
+#mainTopic {
+  color: blue;
+}
+
+#universal {
+  text-align: center;
+}
+
+h1,
+h3,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div > p {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#btn {
+  background-color: purple;
+  color: azure;
+}
+
+#btn:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+p:nth-child(odd) {
+  color: yellow;
+}
+h1::first-letter {
+  color: red;
+}
+
+input[type="checkbox"]:checked + label {
+  color: darkgreen;
+}
